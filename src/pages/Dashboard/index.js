@@ -15,7 +15,7 @@ const Dashboard = () => {
       <p>Manage your posts</p>
       {posts && posts.length === 0 ? (
         <div className="noposts">
-          <p>Não foram encontrados posts</p>
+          <p>No posts found</p>
           <Link to="/posts/create" className="btn">
             Create first post
           </Link>
